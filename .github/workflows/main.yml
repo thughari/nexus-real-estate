@@ -29,5 +29,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/app/browser
+          publish_dir: ./dist/app/browser/browser
           enable_jekyll: false
